@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Malena Hilt · Diseñadora UX/UI junior y maquetadora front-end</title>
+  <meta name="description" content="Portfolio de Malena Hilt, diseñadora UX/UI junior y maquetadora front-end. Casos de estudio, skills y contacto. Disponible para pasantías.">
+  <meta name="theme-color" content="#1F4D47">
+
+  <!-- Open Graph: cambiá TU-USUARIO por tu usuario de GitHub cuando publiques el sitio -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Malena Hilt · Diseñadora UX/UI junior">
+  <meta property="og:description" content="Diseño interfaces claras y accesibles, y las llevo a código. Mirá mis casos de estudio.">
+  <meta property="og:image" content="https://TU-USUARIO.github.io/portfolio-malena-hilt/assets/og-image.png">
+  <meta property="og:url" content="https://TU-USUARIO.github.io/portfolio-malena-hilt/">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <!-- Tipografías: 2 familias, con font-display: swap -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- 1. Header / Navegación -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Malena Hilt, ir al inicio">MH</a>
+
+      <nav aria-label="Principal">
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+          <span class="menu-bars" aria-hidden="true"></span>
+        </button>
+
+        <div class="nav-panel" id="menu-principal">
+          <ul class="nav-links">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <div class="nav-actions">
+            <a class="link-github" href="https://github.com/malenahilt" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
+            <a class="btn btn-primary" href="#contacto">Contactar</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <!-- 2. Hero -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="badge"><span class="badge-dot" aria-hidden="true"></span>Disponible para pasantías · Argentina (GMT-3)</p>
+          <h1 id="hero-titulo">Malena Hilt</h1>
+          <p class="hero-role">Diseñadora UX/UI junior y maquetadora front-end</p>
+          <p class="hero-value">Diseño interfaces claras y accesibles, y las llevo a código.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Ver trabajos</a>
+            <a class="btn btn-secondary" href="#contacto">Contactar</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <img src="assets/img/MiGato.jpeg" width="880" height="960" alt="Retrato de Malena Hilt" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3. Métricas / highlights -->
+    <section class="metrics" aria-labelledby="metricas-titulo">
+      <div class="container">
+        <h2 class="sr-only" id="metricas-titulo">Highlights</h2>
+        <ul class="metrics-list">
+          <li><span class="metric-number">3</span><span class="metric-label">años de carrera</span></li>
+          <li><span class="metric-number">4</span><span class="metric-label">proyectos</span></li>
+          <li><span class="metric-number">6</span><span class="metric-label">herramientas</span></li>
+          <li><span class="metric-number">2</span><span class="metric-label">cursos</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. Skills -->
+    <section class="section section--surface" id="skills" aria-labelledby="skills-titulo">
+      <div class="container">
+        <h2 id="skills-titulo">Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Diseño UX</h3>
+            <p>Investigación, benchmark, wireframes y tests de usabilidad.</p>
+            <ul class="tags" aria-label="Herramientas de Diseño UX">
+              <li>Figma</li><li>FigJam</li><li>Maze</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Diseño UI</h3>
+            <p>Sistemas de diseño, tipografía y color con foco en consistencia.</p>
+            <ul class="tags" aria-label="Herramientas de Diseño UI">
+              <li>Figma</li><li>Color</li><li>Tipografía</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Front-end</h3>
+            <p>HTML semántico, CSS responsive y accesibilidad.</p>
+            <ul class="tags" aria-label="Herramientas de Front-end">
+              <li>HTML5</li><li>CSS3</li><li>Tailwind</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Herramientas</h3>
+            <p>Versionado, despliegue y auditoría de calidad.</p>
+            <ul class="tags" aria-label="Herramientas de trabajo">
+              <li>Git</li><li>GitHub</li><li>Lighthouse</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Proyectos -->
+    <section class="section" id="projects" aria-labelledby="projects-titulo">
+      <div class="container">
+        <h2 id="projects-titulo">Proyectos</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <img src="assets/img/turnos-vet.svg" width="720" height="400" loading="lazy" alt="Pantallas de la app Turnos Vet rediseñada: calendario de turnos y confirmación de la reserva">
+            <div class="card-body">
+              <p class="card-meta">2026 · Caso de estudio</p>
+              <h3><a href="caso-turnos-vet.html">Turnos Vet</a></h3>
+              <p class="card-desc">Rediseño de la app de turnos de una clínica veterinaria, de la investigación al prototipo validado.</p>
+              <p class="card-result">Resultado: tareas completadas del 40% al 90%.</p>
+              <ul class="tags" aria-label="Herramientas del proyecto">
+                <li>Figma</li><li>Research</li><li>Test</li>
+              </ul>
+              <span class="card-cta">Ver caso de estudio <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/img/biblioreserva.svg" width="720" height="400" loading="lazy" alt="Pantalla de BiblioReserva con la grilla de horarios disponibles para reservar salas">
+            <div class="card-body">
+              <p class="card-meta">2025 · Trabajo práctico</p>
+              <h3><a href="https://www.figma.com/design/Mojk0jitBHig38mTjvUlt4" target="_blank" rel="noopener noreferrer">BiblioReserva<span class="sr-only"> (se abre en una pestaña nueva)</span></a></h3>
+              <p class="card-desc">Sistema de reserva de salas de una biblioteca universitaria con wireframes y flujo completo.</p>
+              <p class="card-result">Aprendizaje: la jerarquía visual guía las decisiones.</p>
+              <ul class="tags" aria-label="Herramientas del proyecto">
+                <li>Figma</li><li>Wireframes</li><li>UX</li>
+              </ul>
+              <span class="card-cta">Ver en Figma <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/img/cafe-ribera.svg" width="720" height="400" loading="lazy" alt="Landing de Café Ribera con título, carta y botón de reserva">
+            <div class="card-body">
+              <p class="card-meta">2025 · Landing + design system</p>
+              <h3><a href="https://github.com/malenahilt/cafe-ribera" target="_blank" rel="noopener noreferrer">Café Ribera<span class="sr-only"> (se abre en una pestaña nueva)</span></a></h3>
+              <p class="card-desc">Landing y mini design system para una cafetería de barrio, maquetada con HTML y CSS.</p>
+              <p class="card-result">Resultado: Lighthouse 95+ en las 4 métricas.</p>
+              <ul class="tags" aria-label="Herramientas del proyecto">
+                <li>HTML</li><li>CSS</li><li>A11y</li>
+              </ul>
+              <span class="card-cta">Ver repositorio <span aria-hidden="true">→</span></span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Experiencia / Formación -->
+    <section class="section section--surface" id="experiencia" aria-labelledby="experiencia-titulo">
+      <div class="container">
+        <h2 id="experiencia-titulo">Experiencia y formación</h2>
+        <ol class="timeline">
+          <li class="timeline-item">
+            <p class="timeline-period">2024 – hoy</p>
+            <h3>Lic. en Sistemas de Información</h3>
+            <p class="timeline-org">FCyT · Sede Concepción del Uruguay</p>
+            <ul class="achievements">
+              <li>Aprobé Diseño UX-UI con trabajos prácticos.</li>
+              <li>Participé en 2 proyectos en equipo.</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-period">2025</p>
+            <h3>Curso de Accesibilidad Web</h3>
+            <p class="timeline-org">Formación online</p>
+            <ul class="achievements">
+              <li>Hice una auditoría WCAG de un sitio real.</li>
+              <li>Aprendí a usar axe DevTools.</li>
+            </ul>
+          </li>
+          <li class="timeline-item">
+            <p class="timeline-period">2025</p>
+            <h3>Voluntariado · Rediseño web</h3>
+            <p class="timeline-org">ONG local</p>
+            <ul class="achievements">
+              <li>Simplifiqué la navegación del sitio.</li>
+              <li>Entregué una guía de estilos.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 7. Sobre mí -->
+    <section class="section" id="about" aria-labelledby="about-titulo">
+      <div class="container">
+        <h2 id="about-titulo">Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            <p class="about-lead">Soy estudiante de Sistemas de Información en la FCyT y me dedico al diseño UX/UI y a la maquetación front-end. Me gusta entender a las personas antes de dibujar pantallas, y cuidar que lo diseñado llegue igual a código.</p>
+            <ul class="principles">
+              <li>
+                <h3>Empatía primero</h3>
+                <p>Investigo antes de diseñar.</p>
+              </li>
+              <li>
+                <h3>Simple antes que decorado</h3>
+                <p>Cada elemento tiene una razón.</p>
+              </li>
+              <li>
+                <h3>Accesible por defecto</h3>
+                <p>Contraste, teclado y semántica desde el inicio.</p>
+              </li>
+            </ul>
+          </div>
+          <figure class="about-figure">
+            <img src="assets/img/foto-sobre-mi.svg" width="840" height="880" loading="lazy" alt="Malena Hilt trabajando en su notebook con un prototipo abierto">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Contacto -->
+    <section class="contact" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="container">
+        <div class="contact-block">
+          <h2 id="contacto-titulo">¿Trabajamos juntas?</h2>
+          <p class="contact-text">Estoy buscando mi primera pasantía en diseño de producto. Escribime y te respondo en menos de 48 horas.</p>
+          <a class="btn btn-primary" href="mailto:hola@malenahilt.com">Escribime por email</a>
+          <ul class="contact-links">
+            <li><a href="mailto:hola@malenahilt.com">hola@malenahilt.com</a></li>
+            <li><a href="https://www.linkedin.com/in/malenahilt" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+            <li><a href="https://github.com/malenahilt" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+            <li><a href="https://www.behance.net/malenahilt" target="_blank" rel="noopener noreferrer">Behance<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- 9. Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>© 2026 Malena Hilt</p>
+        <p>Hecho con HTML y CSS. Tipografías: Fraunces y DM Sans.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul class="footer-links">
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#about">Sobre mí</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+          <li><a href="https://www.linkedin.com/in/malenahilt" target="_blank" rel="noopener noreferrer">LinkedIn<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://github.com/malenahilt" target="_blank" rel="noopener noreferrer">GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://www.behance.net/malenahilt" target="_blank" rel="noopener noreferrer">Behance<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
