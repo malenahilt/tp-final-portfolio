@@ -4,9 +4,9 @@ Trabajo Final de Diseño UX-UI 2026 · Licenciatura en Sistemas de Información 
 
 ## Links
 
-- **Sitio publicado:** https://TU-USUARIO.github.io/portfolio-malena-hilt/
+- **Sitio publicado:** https://melenaportfolio.netlify.app/
 - **Figma (research, wireframes, design system y prototipo):** https://www.figma.com/design/Mojk0jitBHig38mTjvUlt4
-- **Repositorio:** https://github.com/TU-USUARIO/portfolio-malena-hilt
+- **Repositorio:** https://github.com/malenahilt/tp-final-portfolio
 
 ## Concepto visual
 
@@ -49,7 +49,7 @@ assets/               Favicon, imagen Open Graph e imágenes de proyectos
 - Breakpoints probados: 375 px, 768 px y 1280 px, sin scroll horizontal.
 - Fuentes con `font-display: swap` (2 familias).
 
-Captura de Lighthouse (mobile): _agregar acá la captura después de publicar el sitio._
+Captura de Lighthouse (mobile): ![Reporte de Lighthouse en mobile](docs/lighthouse-mobile.png)
 
 ## Fuentes de templates y recursos
 
@@ -60,13 +60,15 @@ Captura de Lighthouse (mobile): _agregar acá la captura después de publicar el
 
 ## Uso de IA
 
-Se usó IA (Claude, de Anthropic) para:
+Se usó IA (Claude, de Anthropic) como ayuda durante el trabajo. Se declara acá qué se generó con su ayuda y cómo se revisó:
 
-- Generar el diseño inicial en Figma (research, wireframes, design system y pantallas).
-- Escribir el código HTML, CSS y JavaScript a partir de ese diseño.
-- Redactar los textos del portfolio. Los proyectos, la experiencia y los datos de contacto son ficticios pero verosímiles, como permite la consigna.
+- **Código:** ayudó a desarrollar el HTML, el CSS y el JavaScript del sitio a partir del diseño de Figma.
+- **Estética:** dio opiniones y propuestas sobre la paleta, las tipografías y la presentación visual, que después se revisaron y se aceptaron o se ajustaron.
+- **Diseño en Figma y textos:** ayudó a armar el archivo de Figma (research, wireframes, design system y pantallas) y a redactar los textos del portfolio. Los proyectos, la experiencia y los datos de contacto son ficticios pero verosímiles, como permite la consigna.
 
-Revisión humana: _completar con lo que revisaste y modificaste vos (por ejemplo, textos cambiados, pruebas en el celular, resultados del test de usabilidad)._
+### Nota sobre la foto
+
+En la sección "Sobre mí" iría un retrato de la persona, como pide la consigna. Como decisión informal y sin intención de que sea una foto seria, se eligió poner una foto de mi gato. Se puede reemplazar por un retrato personal en cualquier momento.
 
 ## Cómo se publica (GitHub Pages)
 
@@ -75,10 +77,3 @@ Revisión humana: _completar con lo que revisaste y modificaste vos (por ejemplo
 3. En **Source** elegir **Deploy from a branch**, rama `main` y carpeta `/ (root)`.
 4. Esperar 1 a 2 minutos. El link aparece arriba en esa misma pantalla.
 5. Cada vez que se haga un commit a `main`, el sitio se actualiza solo.
-
-## Pendientes antes de entregar
-
-- Reemplazar `TU-USUARIO` por tu usuario de GitHub en `index.html`, `caso-turnos-vet.html` y este README.
-- Reemplazar los links de LinkedIn, GitHub, Behance y el email por los reales.
-- Cambiar el link de Café Ribera por un repositorio o demo real.
-- Agregar la captura de Lighthouse.
