@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Turnos Vet · Caso de estudio · Malena Hilt</title>
+  <meta name="description" content="Caso de estudio de Turnos Vet: rediseño de la app de turnos de una clínica veterinaria. Problema, proceso, solución y resultado.">
+  <meta name="theme-color" content="#1F4D47">
+
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:title" content="Turnos Vet · Caso de estudio · Malena Hilt">
+  <meta property="og:description" content="Cómo llevé las tareas completadas del 40% al 90% rediseñando una app de turnos.">
+  <meta property="og:image" content="https://TU-USUARIO.github.io/portfolio-malena-hilt/assets/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Fraunces:opsz,wght@9..144,600&display=swap">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header page-header-simple">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Malena Hilt, volver al inicio">MH</a>
+      <a class="btn btn-secondary" href="index.html#projects">Volver a proyectos</a>
+    </div>
+  </header>
+
+  <main id="contenido" tabindex="-1">
+
+    <section class="case-hero" aria-labelledby="caso-titulo">
+      <div class="container">
+        <p class="badge">2026 · Caso de estudio</p>
+        <h1 id="caso-titulo">Turnos Vet</h1>
+        <p class="case-lead">Rediseñé la app de turnos de una clínica veterinaria para que pedir una consulta lleve un minuto y no genere dudas. Pasé de 40% a 90% de tareas completadas en el test de usabilidad.</p>
+        <figure class="case-cover">
+          <img src="assets/img/turnos-vet.svg" width="720" height="400" alt="Pantallas de la app Turnos Vet rediseñada: calendario de turnos y confirmación de la reserva">
+        </figure>
+      </div>
+    </section>
+
+    <section class="section section--surface" aria-labelledby="resumen-titulo">
+      <div class="container">
+        <h2 id="resumen-titulo">Resumen del proyecto</h2>
+        <dl class="facts">
+          <div><dt>Rol</dt><dd>Diseño UX/UI</dd></div>
+          <div><dt>Duración</dt><dd>6 semanas</dd></div>
+          <div><dt>Herramientas</dt><dd>Figma, FigJam, Maze</dd></div>
+          <div><dt>Equipo</dt><dd>Trabajo individual</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="problema-titulo">
+      <div class="container">
+        <h2 id="problema-titulo">El problema</h2>
+        <div class="prose">
+          <p>La clínica recibía la mayoría de los turnos por teléfono. La app existía, pero casi nadie la usaba: el calendario mostraba todos los días como disponibles y recién avisaba al final del proceso si no había lugar.</p>
+          <p>En la primera prueba con la versión original, solo 4 de cada 10 tareas de reserva se completaban sin ayuda. Las personas abandonaban en el selector de horario.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface" aria-labelledby="proceso-titulo">
+      <div class="container">
+        <h2 id="proceso-titulo">El proceso</h2>
+        <ol class="steps">
+          <li>
+            <h3>Investigación</h3>
+            <p>Entrevisté a 5 personas con mascotas y a la recepcionista de la clínica. Descubrí que el dato clave no es la fecha, sino saber qué horarios hay libres hoy y esta semana.</p>
+          </li>
+          <li>
+            <h3>Benchmark</h3>
+            <p>Comparé 3 apps de reservas (una clínica, un restaurante y una peluquería) para ver cómo muestran la disponibilidad antes de pedir datos.</p>
+          </li>
+          <li>
+            <h3>Wireframes y flujo</h3>
+            <p>Reduje el proceso de 7 pantallas a 4: elegir mascota, elegir horario, confirmar y recibir el aviso.</p>
+          </li>
+          <li>
+            <h3>Prototipo de alta fidelidad</h3>
+            <p>Armé un prototipo en Figma con un sistema de diseño propio: botones, tarjetas de horario y estados de error.</p>
+          </li>
+          <li>
+            <h3>Test de usabilidad</h3>
+            <p>Probé el prototipo con 5 personas en Maze, con tareas como "sacá un turno para mañana" y "cambiá el horario de tu turno".</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="solucion-titulo">
+      <div class="container">
+        <h2 id="solucion-titulo">La solución</h2>
+        <div class="prose">
+          <p>El calendario ahora muestra solo los días con horarios libres y marca con un punto cuántos quedan. Al elegir un día, aparecen los horarios como botones grandes, fáciles de tocar con el pulgar.</p>
+          <p>Antes de confirmar, un resumen muestra mascota, motivo, fecha y hora, con un botón para editar cada dato sin volver al principio. Si el horario se ocupa mientras la persona decide, la app lo avisa y propone los dos más cercanos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--surface" aria-labelledby="resultado-titulo">
+      <div class="container">
+        <h2 id="resultado-titulo">El resultado</h2>
+        <ul class="results-grid">
+          <li><span class="metric-number">90%</span><span class="metric-label">de tareas completadas, antes 40%</span></li>
+          <li><span class="metric-number">1 min</span><span class="metric-label">para pedir un turno, antes 3 min</span></li>
+          <li><span class="metric-number">4</span><span class="metric-label">pantallas en el flujo, antes 7</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="aprendizaje-titulo">
+      <div class="container">
+        <h2 id="aprendizaje-titulo">Lo que aprendí</h2>
+        <div class="prose">
+          <p>Mostrar la disponibilidad al principio evita más errores que cualquier mensaje al final. También aprendí a probar el prototipo antes de pulir los detalles visuales: dos de los problemas más graves aparecieron en el primer test y los resolví en una tarde.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" aria-labelledby="siguiente-titulo">
+      <div class="container">
+        <div class="contact-block">
+          <h2 id="siguiente-titulo">¿Querés ver más?</h2>
+          <p class="contact-text">Mirá los otros proyectos o escribime para conversar sobre cómo trabajo.</p>
+          <div class="case-nav">
+            <a class="btn btn-primary" href="index.html#projects">Ver más proyectos</a>
+            <a class="btn btn-primary" href="mailto:hola@malenahilt.com">Escribime por email</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p>© 2026 Malena Hilt</p>
+        <p>Hecho con HTML y CSS. Tipografías: Fraunces y DM Sans.</p>
+      </div>
+      <nav aria-label="Pie de página">
+        <ul class="footer-links">
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#projects">Proyectos</a></li>
+          <li><a href="index.html#experiencia">Experiencia</a></li>
+          <li><a href="index.html#about">Sobre mí</a></li>
+          <li><a href="index.html#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
